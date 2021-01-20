@@ -1,12 +1,13 @@
 ﻿using System;
 
-namespace ConsoleProgramC_
+namespace ConsoleProgram
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Salam Salehpour");
+	    Person salamPerson = new Person { Id = 1, Name = "AbdoSalam Salehpour" };
+            Console.WriteLine(salamPerson.Name);
         }
     }
 }
