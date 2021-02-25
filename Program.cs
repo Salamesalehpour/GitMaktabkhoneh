@@ -11,6 +11,8 @@ namespace ConsoleProgram
             Console.WriteLine(salamPerson.Name);
 
 	    Console.WriteLine("Press any key ...");
+
+	    Console.ReadLine();
         }
     }
 }
