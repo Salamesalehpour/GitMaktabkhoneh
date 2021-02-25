@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ConsoleProgram
 {
-	public class AppDbContext
+	public class AppDbContext : DbContext
 	{
 	}
 }
